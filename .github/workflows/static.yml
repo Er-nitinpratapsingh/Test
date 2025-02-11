@@ -46,13 +46,13 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-        # Optional: Install dependencies (e.g., for a Node.js project)
-      - name: Install dependencies
-        run: npm install
+      #   # Optional: Install dependencies (e.g., for a Node.js project)
+      # - name: Install dependencies
+      #   run: npm install
 
-      # Optional: Build the project (e.g., for a Node.js project)
-      - name: Build project
-        run: npm run build
+      # # Optional: Build the project (e.g., for a Node.js project)
+      # - name: Build project
+      #   run: npm run build
 
         # Commit and push changes (if any)
       - name: Commit and push changes
