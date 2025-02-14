@@ -1,22 +1,172 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume Template</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .container {
+      /* display: flex; */
+      /* max-width: 1200px;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+      max-width: 900px;
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .main {
+            display: flex;
+            /* flex-wrap: wrap;
+            margin-top: 20px; */
+            max-width: 1200px;
+      margin: 20px auto;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+    .left-column {
+      flex: 70%;
+      padding: 20px;
+    }
+    .right-column {
+      flex: 30%;
+      padding: 20px;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      margin: 0;
+      font-size: 36px;
+      color: #333;
+    }
+    h2 {
+      margin: 0;
+      font-size: 24px;
+      color: #555;
+    }
+    h3 {
+      margin: 10px 0;
+      font-size: 20px;
+      color: #333;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .profile-summary, .experience, .projects {
+      margin-bottom: 20px;
+    }
+    .contact-info, .skills, .education {
+      margin-bottom: 20px;
+    }
+    .projects {
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-    <h1>Text changed.</h1> 
-    <!-- Skills Section -->
-    <div class="section">
-        <h2>Skills</h2>
+  <div class="container">
+   <div class="main">
+     <!-- Left Column -->
+     <div class="left-column">
+        <!-- Name and Designation -->
+        <h1>John Doe</h1>
+        <h2>Software Engineer</h2>
+  
+        <!-- Profile Summary -->
+        <div class="profile-summary">
+          <h3>Profile Summary</h3>
+          <ul>
+            <li>5+ years of experience in software development.</li>
+            <li>Proficient in JavaScript, Python, and Java.</li>
+            <li>Strong problem-solving and communication skills.</li>
+          </ul>
+        </div>
+  
+        <!-- Experience -->
+        <div class="experience">
+          <h3>Experience</h3>
+          <p><strong>Senior Software Engineer</strong> | XYZ Corp | Jan 2020 - Present</p>
+          <ul>
+            <li>Developed scalable web applications using React and Node.js.</li>
+            <li>Led a team of 5 developers to deliver projects on time.</li>
+          </ul>
+          <p><strong>Software Engineer</strong> | ABC Inc | Jun 2017 - Dec 2019</p>
+          <ul>
+            <li>Worked on backend systems using Python and Django.</li>
+            <li>Improved system performance by 30%.</li>
+          </ul>
+        </div>
+  
+        
+      </div>
+  
+      <!-- Right Column -->
+      <div class="right-column">
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <h3>Contact Info</h3>
+          <p>Email: john.doe@example.com</p>
+          <p>Phone: +123 456 7890</p>
+          <p>LinkedIn: linkedin.com/in/johndoe</p>
+          <p>GitHub: github.com/johndoe</p>
+        </div>
+  
+        <!-- Technical Skills -->
+        <div class="skills">
+          <h3>Technical Skills</h3>
+          <ul>
+            <li>JavaScript, Python, Java</li>
+            <li>React, Node.js, Django</li>
+            <li>SQL, MongoDB, Firebase</li>
+            <li>Git, Docker, AWS</li>
+          </ul>
+        </div>
+  
+        <!-- Personal Skills -->
+        <div class="skills">
+          <h3>Personal Skills</h3>
+          <ul>
+            <li>Team Leadership</li>
+            <li>Problem Solving</li>
+            <li>Communication</li>
+          </ul>
+        </div>
+  
+        <!-- Education -->
+        <div class="education">
+          <h3>Education</h3>
+          <p><strong>Bachelor of Science in Computer Science</strong></p>
+          <p>University of XYZ | 2013 - 2017</p>
+        </div>
+      </div>
+   </div>
+
+    <!-- Projects -->
+    <div class="projects">
+        <h3>Projects</h3>
+        <p><strong>E-Commerce Platform</strong></p>
         <ul>
-            <li>PHP, Laravel, JavaScript, Vue.js</li>
-            <li>MySQL, PostgreSQL, MongoDB</li>
-            <li>Git, Docker, CI/CD</li>
-            <li>RESTful APIs, Microservices</li>
-            <li>Agile Methodology, Scrum</li>  
+          <li>Built a full-stack e-commerce platform using MERN stack.</li>
+          <li>Integrated payment gateway and user authentication.</li>
         </ul>
-    </div>    
+        <p><strong>Task Management App</strong></p>
+        <ul>
+          <li>Developed a task management app with real-time updates.</li>
+          <li>Used Firebase for backend and real-time database.</li>
+        </ul>
+      </div>
+
+  </div>
+
+  <script>
+    // JavaScript can be added here for interactivity if needed
+  </script>
 </body>
-</html>   
+</html>
