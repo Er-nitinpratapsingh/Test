@@ -2,6 +2,6 @@
 
 echo "Hello World!";
 
-echo "\n";
+echo "<br>";
 
 echo "Test files has been updated.";
