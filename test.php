@@ -4,5 +4,5 @@ echo "Hello World!";
 
 echo "<br>";
 
-echo "Test files has been updated.";
+echo "Test files has been updated."
 
